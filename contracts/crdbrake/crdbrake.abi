@@ -1,0 +1,69 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT Sat Nov 24 16:30:59 2018",
+    "version": "eosio::abi/1.1",
+    "structs": [
+        {
+            "name": "endtest",
+            "base": "",
+            "fields": [
+                {
+                    "name": "testtype",
+                    "type": "name"
+                },
+                {
+                    "name": "result",
+                    "type": "int32"
+                }
+            ]
+        },
+        {
+            "name": "starttest",
+            "base": "",
+            "fields": [
+                {
+                    "name": "testtype",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "test_info",
+            "base": "",
+            "fields": [
+                {
+                    "name": "testname",
+                    "type": "name"
+                },
+                {
+                    "name": "testresult",
+                    "type": "int32"
+                }
+            ]
+        }
+    ],
+    "types": [],
+    "actions": [
+        {
+            "name": "endtest",
+            "type": "endtest",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "starttest",
+            "type": "starttest",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "test",
+            "type": "test_info",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "variants": [],
+    "abi_extensions": []
+}
